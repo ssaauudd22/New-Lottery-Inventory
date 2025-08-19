@@ -169,7 +169,7 @@ public class Main {
                         System.out.println("----------------------------------------");
 
                         for (Inventory inv : inventories) {
-                            inv.display();  // Polymorphic call
+                            inv.display();  // Polymorphistic trait right here
                         }
                     }
                     break;
